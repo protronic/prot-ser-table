@@ -9,6 +9,8 @@
   },
   "dependencies": {
     "core-js": "^2.6.5",
+    "pouchdb-browser": "^7.0.0",
+    "prot-table": "^0.8.0",
     "vue": "^2.6.10"
   },
   "devDependencies": {
