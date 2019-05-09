@@ -1,40 +1,24 @@
 <template>
   <div id="app">
-    <prot-table :data_url='data_url' :table_options="options"></prot-table>
+    <prot-ser :data_url='data_url' :table_options="options"></prot-ser>
   </div>
 </template>
 
 <script>
 // import HelloWorld from './components/HelloWorld.vue';
 import Vue from 'vue';
-import PouchDB from 'pouchdb-browser';
-import ProtTable from 'prot-table';
-
-let pouch = new PouchDB('http://prot-subuntu:5985/prot-table');
-
-let url = new URL(location.href)
-let query_string = url.search;
-let search_params = new URLSearchParams(query_string);
-
-let page = search_params.get('page');
+import protSer from './components/prot-serial-table';
 
 export default {
   name: 'app',
   components: {
-    ProtTable
+    protSer
   },
-  mounted(){
-    pouch.get(page)
-      .then( response => {
-        console.log(response);
-        this.options = response;
-      });
-  },
-  data(){
-    return {
-      data_url: 'data.json',
-      options: {},
-    };
+  props: {
+    data_url: {
+      type: String,
+      default: 'data.json'
+    },
   }
 }
 </script>
