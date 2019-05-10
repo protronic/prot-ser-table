@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <prot-ser :data_url='data_url' :table_options="options"></prot-ser>
+    <prot-ser :data_url='data_url' :height="height"></prot-ser>
   </div>
 </template>
 
@@ -8,7 +8,7 @@
 // import HelloWorld from './components/HelloWorld.vue';
 import Vue from 'vue';
 import protSer from './components/prot-serial-table';
-
+ 
 export default {
   name: 'app',
   components: {
@@ -19,10 +19,14 @@ export default {
       type: String,
       default: 'data.json'
     },
+    height: {
+      type: [Number, String],
+      default: "auto"
+    }
   }
 }
 </script>
-
+ 
 <style>
 #app {
   /* font-family: 'Avenir', Helvetica, Arial, sans-serif;
