@@ -5,19 +5,16 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build --mode production --dest dist/web-component --target wc --name prot-ser",
+    "watch": "vue-cli-service build --mode production --dest dist/web-component --target wc --name prot-ser --watch",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "core-js": "^2.6.5",
     "pouchdb-browser": "^7.0.0",
-    "prot-table": "^0.12.14",
+    "prot-table": "^0.12.29",
     "vue": "^2.6.10"
   },
   "devDependencies": {
-    "@babel/cli": "^7.4.4",
-    "@babel/core": "^7.4.4",
-    "@babel/preset-env": "^7.4.4",
-    "@babel/preset-es2015": "^7.0.0-beta.53",
     "@vue/cli-plugin-babel": "^3.7.0",
     "@vue/cli-plugin-eslint": "^3.7.0",
     "@vue/cli-service": "^3.7.0",

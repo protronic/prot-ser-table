@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div>
     <prot-table ref="table" :data_url='data_url'></prot-table>
   </div>
 </template>
@@ -26,30 +26,50 @@ export default {
   mounted(){
     pouch.get(page)
       .then( response => {
-        // console.log(response);
         return this.deserialize_options(JSON.stringify(response));
       })
       .catch( () => {
-        debug_con.error('Could not find page - style - document.');
+        console.error('Could not find page - style - document.');
         return {};
       })
       .then( op =>{
-        op.height = this.height;
-
+        if (this.height){
+          this.$set(op, 'height', this.height);
+        }
         // defaults:
-
-        op.headerStyles = {
+        
+        this.$set(op, 'headerStyles', { 
           'text-align': 'left',
-          'font-wright': 'bold'
-        }
+          'font-weight': 'bold'
+        });
 
-        op.bodyStyles = {
+        this.$set(op, 'bodyStyles', {
           'text-align': 'left'
-        }
+        });
 
-        this.options = op;  
+        this.$set(op, 'pagination', {
+          'activ': true,
+          'rows': 300
+        })
+
+        op.formatter = Object.assign({}, op.formatter, {
+          "#all": (value, index, row) => {
+            if(value === undefined){
+              return value;
+            }
+            else if (value.length > 0 && value[0] === '-'){
+              return `<span style="color: red;">${value}</span>`
+            }
+            else{
+              return value;
+            }
+          }
+        })
+
+        this.options = Object.assign({}, this.options, op);  
         this.$refs.table.table_options = op;
-        // console.log(this.options)
+
+        this.fetch_legend();
       });
   },
   props: {
@@ -57,11 +77,12 @@ export default {
     height: [Number, String],
     debug_con: {
       type: Object,
-      default: {
+      default: () => ({
         log(){},
         error(){}
-      }
+      })
     }
+    
   },
   data(){
     return {
@@ -82,6 +103,39 @@ export default {
         }
       });
     },
+    fetch_legend(){
+      fetch('http://prot-subuntu:5985/ang_prot-wiki/prot-wiki_Legende')
+        .then( response => (response.json()))
+        .then( response => {
+          console.log({response})
+          let links = response.auskunftSchemaLinks;
+          let tooltips = response.TooltipText;
+
+          for(let key in links){
+            if (this.options.formatter){
+              if (this.options.formatter[key])
+                this.$set(this.options.formatter, key, (value, rowIndex, row) => {
+                  return `<a href="${links[key]}${value}">${this.options.formatters[key](value, rowIndex, row)}</a>`;
+                });
+              else {
+                this.$set(this.options.formatter, key, (value) => {
+                  return `<a href="${links[key]}${value}">${value}</a>`
+                });
+              }
+            }
+            else{
+              this.options.formatter = {}
+              this.$set(this.options.formatter, key, (value) => {
+                return `<a href="${links[key]}${value}">${value}</a>`
+              });
+            }
+          }
+          this.$refs.table.table_options = this.options;
+        })
+        .catch( err => {
+          console.error(err)
+        })
+    }
     
   },
   // watch: {
@@ -91,6 +145,13 @@ export default {
   //       console.log(this.data_url)
   //       this.data_url_d = this.data_url
   //     }
+  //   }
+  // }
+  // watch: {
+  //   options(neu){
+  //     this.$refs.table.table_options = this.options;
+      
+  //     console.log({value: neu, ref: this.$refs.table})
   //   }
   // }
 }
