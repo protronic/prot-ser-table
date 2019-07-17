@@ -1,504 +1,472 @@
 [
   {
-    "_id": "62",
+    "#id": "62",
+    "#form": "seriennummervergabe",
     "seriennummer": "0220190001",
     "artikelnummer": "1017000001",
     "macadresse": "00:50:C2:9C:61:31",
     "microcontrollerid": "",
     "platinennummern": "[\"00014882\"]",
-    "vorgangsnummern": "[\"16920\"]",
-    "parentForm": "seriennummervergabe",
-    "changedTime": "1555584825538"
+    "vorgangsnummern": "[\"16920\"]"
   },
   {
-    "_id": "63",
+    "#id": "63",
+    "#form": "seriennummervergabe",
     "seriennummer": "0220190002",
     "artikelnummer": "1017000001",
     "macadresse": "00:50:C2:9C:61:2E",
+    "microcontrollerid": "",
     "platinennummern": "[\"00014901\"]",
-    "vorgangsnummern": "[\"16920\"]",
-    "parentForm": "seriennummervergabe",
-    "changedUser": "Unbekannt",
-    "changedTime": "1559817135687"
+    "vorgangsnummern": "[\"16920\"]"
   },
   {
-    "_id": "64",
+    "#id": "64",
+    "#form": "seriennummervergabe",
     "seriennummer": "0220190003",
     "artikelnummer": "1017000001",
     "macadresse": "00:50:C2:9C:61:30",
     "microcontrollerid": "",
     "platinennummern": "[\"00014888\"]",
-    "vorgangsnummern": "[\"16920\"]",
-    "parentForm": "seriennummervergabe",
-    "changedTime": "1555584825538"
+    "vorgangsnummern": "[\"16920\"]"
   },
   {
-    "_id": "65",
+    "#id": "65",
+    "#form": "seriennummervergabe",
     "seriennummer": "0220190004",
     "artikelnummer": "1017000001",
     "macadresse": "00:50:C2:9C:60:44",
     "microcontrollerid": "",
     "platinennummern": "[\"00014885\"]",
-    "vorgangsnummern": "[\"16920\"]",
-    "parentForm": "seriennummervergabe",
-    "changedTime": "1555584825538"
+    "vorgangsnummern": "[\"16920\"]"
   },
   {
-    "_id": "66",
+    "#id": "66",
+    "#form": "seriennummervergabe",
     "seriennummer": "0220190005",
     "artikelnummer": "1017000001",
     "macadresse": "00:50:C2:9C:60:BF",
     "microcontrollerid": "",
     "platinennummern": "[\"00014883\"]",
-    "vorgangsnummern": "[\"16920\"]",
-    "parentForm": "seriennummervergabe",
-    "changedTime": "1555584825538"
+    "vorgangsnummern": "[\"16920\"]"
   },
   {
-    "_id": "67",
+    "#id": "67",
+    "#form": "seriennummervergabe",
     "seriennummer": "0520190001",
     "artikelnummer": "1017000020",
     "macadresse": "00:50:C2:9C:6F:9A",
     "microcontrollerid": "",
     "platinennummern": "[\"094996\"]",
-    "vorgangsnummern": "[\"17058\"]",
-    "parentForm": "seriennummervergabe",
-    "changedTime": "1555584825538"
+    "vorgangsnummern": "[\"17058\"]"
   },
   {
-    "_id": "72",
+    "#id": "72",
+    "#form": "seriennummervergabe",
     "seriennummer": "3120180001",
     "artikelnummer": "1017000023",
     "macadresse": "",
     "microcontrollerid": "",
-    "parentForm": "seriennummervergabe",
-    "changedUser": "m.koppchen",
-    "changedTime": "1555584825538"
+    "platinennummern": "",
+    "vorgangsnummern": ""
   },
   {
-    "_id": "73",
+    "#id": "73",
+    "#form": "seriennummervergabe",
     "seriennummer": "3120180002",
     "artikelnummer": "1017000023",
     "macadresse": "",
     "microcontrollerid": "",
-    "parentForm": "seriennummervergabe",
-    "changedUser": "m.koppchen",
-    "changedTime": "1555584825538"
+    "platinennummern": "",
+    "vorgangsnummern": ""
   },
   {
-    "_id": "74",
+    "#id": "74",
+    "#form": "seriennummervergabe",
     "seriennummer": "3120180003",
     "artikelnummer": "1017000023",
     "macadresse": "",
     "microcontrollerid": "",
-    "parentForm": "seriennummervergabe",
-    "changedUser": "m.koppchen",
-    "changedTime": "1555584825538"
+    "platinennummern": "",
+    "vorgangsnummern": ""
   },
   {
-    "_id": "75",
+    "#id": "75",
+    "#form": "seriennummervergabe",
     "seriennummer": "3120180004",
     "artikelnummer": "1017000023",
     "macadresse": "",
     "microcontrollerid": "",
-    "parentForm": "seriennummervergabe",
-    "changedUser": "m.koppchen",
-    "changedTime": "1555584825538"
+    "platinennummern": "",
+    "vorgangsnummern": ""
   },
   {
-    "_id": "76",
+    "#id": "76",
+    "#form": "seriennummervergabe",
     "seriennummer": "3120180005",
     "artikelnummer": "1017000013",
     "macadresse": "",
     "microcontrollerid": "",
-    "vorgangsnummern": "[\"15911\"]",
-    "parentForm": "seriennummervergabe",
-    "changedUser": "m.koeppchen",
-    "changedTime": "1555584825538"
+    "platinennummern": "",
+    "vorgangsnummern": "[\"15911\"]"
   },
   {
-    "_id": "77",
+    "#id": "77",
+    "#form": "seriennummervergabe",
     "seriennummer": "3120180006",
     "artikelnummer": "1017000013",
     "macadresse": "",
     "microcontrollerid": "",
-    "vorgangsnummern": "[\"15911\"]",
-    "parentForm": "seriennummervergabe",
-    "changedUser": "m.koeppchen",
-    "changedTime": "1555584825538"
+    "platinennummern": "",
+    "vorgangsnummern": "[\"15911\"]"
   },
   {
-    "_id": "78",
+    "#id": "78",
+    "#form": "seriennummervergabe",
     "seriennummer": "3120180007",
     "artikelnummer": "1017000013",
     "macadresse": "",
     "microcontrollerid": "",
-    "vorgangsnummern": "[\"15911\"]",
-    "parentForm": "seriennummervergabe",
-    "changedUser": "m.koeppchen",
-    "changedTime": "1555584825538"
+    "platinennummern": "",
+    "vorgangsnummern": "[\"15911\"]"
   },
   {
-    "_id": "79",
+    "#id": "79",
+    "#form": "seriennummervergabe",
     "seriennummer": "3120180008",
     "artikelnummer": "1017000013",
     "macadresse": "",
     "microcontrollerid": "",
-    "vorgangsnummern": "[\"15911\"]",
-    "parentForm": "seriennummervergabe",
-    "changedUser": "m.koeppchen",
-    "changedTime": "1555584825538"
+    "platinennummern": "",
+    "vorgangsnummern": "[\"15911\"]"
   },
   {
-    "_id": "80",
+    "#id": "80",
+    "#form": "seriennummervergabe",
     "seriennummer": "3120180009",
     "artikelnummer": "1017000013",
     "macadresse": "",
     "microcontrollerid": "",
-    "vorgangsnummern": "[\"15911\"]",
-    "parentForm": "seriennummervergabe",
-    "changedUser": "m.koeppchen",
-    "changedTime": "1555584825538"
+    "platinennummern": "",
+    "vorgangsnummern": "[\"15911\"]"
   },
   {
-    "_id": "81",
+    "#id": "81",
+    "#form": "seriennummervergabe",
     "seriennummer": "3120180010",
     "artikelnummer": "1017000013",
     "macadresse": "",
     "microcontrollerid": "",
-    "vorgangsnummern": "[\"15911\"]",
-    "parentForm": "seriennummervergabe",
-    "changedUser": "m.koeppchen",
-    "changedTime": "1555584825538"
+    "platinennummern": "",
+    "vorgangsnummern": "[\"15911\"]"
   },
   {
-    "_id": "82",
+    "#id": "82",
+    "#form": "seriennummervergabe",
     "seriennummer": "3120180011",
     "artikelnummer": "1017000013",
     "macadresse": "",
     "microcontrollerid": "",
-    "vorgangsnummern": "[\"15911\"]",
-    "parentForm": "seriennummervergabe",
-    "changedUser": "m.koeppchen",
-    "changedTime": "1555584825538"
+    "platinennummern": "",
+    "vorgangsnummern": "[\"15911\"]"
   },
   {
-    "_id": "83",
+    "#id": "83",
+    "#form": "seriennummervergabe",
     "seriennummer": "3120180012",
     "artikelnummer": "1017000013",
     "macadresse": "",
     "microcontrollerid": "",
-    "vorgangsnummern": "[\"15911\"]",
-    "parentForm": "seriennummervergabe",
-    "changedUser": "m.koeppchen",
-    "changedTime": "1555584825538"
+    "platinennummern": "",
+    "vorgangsnummern": "[\"15911\"]"
   },
   {
-    "_id": "84",
+    "#id": "84",
+    "#form": "seriennummervergabe",
     "seriennummer": "3120180013",
     "artikelnummer": "1017000012",
     "macadresse": "00:50:C2:9C:6F:A9",
     "microcontrollerid": "",
-    "vorgangsnummern": "[\"15911\"]",
-    "parentForm": "seriennummervergabe",
-    "changedUser": "m.koeppchen",
-    "changedTime": "1555584825538"
+    "platinennummern": "",
+    "vorgangsnummern": "[\"15911\"]"
   },
   {
-    "_id": "85",
+    "#id": "85",
+    "#form": "seriennummervergabe",
     "seriennummer": "3120180014",
     "artikelnummer": "1017000012",
     "macadresse": "00:50:C2:9C:6F:A8",
     "microcontrollerid": "",
-    "vorgangsnummern": "[\"15911\"]",
-    "parentForm": "seriennummervergabe",
-    "changedUser": "m.koeppchen",
-    "changedTime": "1555584825538"
+    "platinennummern": "",
+    "vorgangsnummern": "[\"15911\"]"
   },
   {
-    "_id": "86",
+    "#id": "86",
+    "#form": "seriennummervergabe",
     "seriennummer": "3120180015",
     "artikelnummer": "1017000012",
     "macadresse": "00:50:C2:9C:6F:A7",
     "microcontrollerid": "",
-    "vorgangsnummern": "[\"15911\"]",
-    "parentForm": "seriennummervergabe",
-    "changedUser": "m.koeppchen",
-    "changedTime": "1555584825538"
+    "platinennummern": "",
+    "vorgangsnummern": "[\"15911\"]"
   },
   {
-    "_id": "87",
+    "#id": "87",
+    "#form": "seriennummervergabe",
     "seriennummer": "3120180016",
     "artikelnummer": "1017000012",
     "macadresse": "00:50:C2:9C:6F:A6",
     "microcontrollerid": "",
-    "vorgangsnummern": "[\"15911\"]",
-    "parentForm": "seriennummervergabe",
-    "changedUser": "m.koeppchen",
-    "changedTime": "1555584825538"
+    "platinennummern": "",
+    "vorgangsnummern": "[\"15911\"]"
   },
   {
-    "_id": "88",
+    "#id": "88",
+    "#form": "seriennummervergabe",
     "seriennummer": "3120180017",
     "artikelnummer": "1017000012",
     "macadresse": "00:50:C2:9C:6F:AA",
     "microcontrollerid": "",
-    "vorgangsnummern": "[\"15911\"]",
-    "parentForm": "seriennummervergabe",
-    "changedUser": "m.koeppchen",
-    "changedTime": "1555584825538"
+    "platinennummern": "",
+    "vorgangsnummern": "[\"15911\"]"
   },
   {
-    "_id": "89",
+    "#id": "89",
+    "#form": "seriennummervergabe",
     "seriennummer": "3120180018",
     "artikelnummer": "1017000012",
     "macadresse": "00:50:C2:9C:6F:AB",
     "microcontrollerid": "",
-    "vorgangsnummern": "[\"15911\"]",
-    "parentForm": "seriennummervergabe",
-    "changedUser": "m.koeppchen",
-    "changedTime": "1555584825538"
+    "platinennummern": "",
+    "vorgangsnummern": "[\"15911\"]"
   },
   {
-    "_id": "90",
+    "#id": "90",
+    "#form": "seriennummervergabe",
     "seriennummer": "3120180019",
     "artikelnummer": "1017000012",
     "macadresse": "00:50:C2:9C:6F:AC",
     "microcontrollerid": "",
-    "vorgangsnummern": "[\"15911\"]",
-    "parentForm": "seriennummervergabe",
-    "changedUser": "m.koeppchen",
-    "changedTime": "1555584825538"
+    "platinennummern": "",
+    "vorgangsnummern": "[\"15911\"]"
   },
   {
-    "_id": "91",
+    "#id": "91",
+    "#form": "seriennummervergabe",
     "seriennummer": "3120180020",
     "artikelnummer": "1017000012",
     "macadresse": "00:50:C2:9C:6F:AD",
     "microcontrollerid": "",
-    "vorgangsnummern": "[\"15911\"]",
-    "parentForm": "seriennummervergabe",
-    "changedUser": "m.koeppchen",
-    "changedTime": "1555584825538"
+    "platinennummern": "",
+    "vorgangsnummern": "[\"15911\"]"
   },
   {
-    "_id": "92",
+    "#id": "92",
+    "#form": "seriennummervergabe",
     "seriennummer": "3120180021",
     "artikelnummer": "1017000012",
     "macadresse": "00:50:C2:9C:6F:B1",
     "microcontrollerid": "",
-    "vorgangsnummern": "[\"15911\"]",
-    "parentForm": "seriennummervergabe",
-    "changedUser": "m.koeppchen",
-    "changedTime": "1555584825538"
+    "platinennummern": "",
+    "vorgangsnummern": "[\"15911\"]"
   },
   {
-    "_id": "93",
+    "#id": "93",
+    "#form": "seriennummervergabe",
     "seriennummer": "3120180022",
     "artikelnummer": "1017000012",
     "macadresse": "00:50:C2:9C:6F:B0",
     "microcontrollerid": "",
-    "vorgangsnummern": "[\"15911\"]",
-    "parentForm": "seriennummervergabe",
-    "changedUser": "m.koeppchen",
-    "changedTime": "1555584825538"
+    "platinennummern": "",
+    "vorgangsnummern": "[\"15911\"]"
   },
   {
-    "_id": "94",
+    "#id": "94",
+    "#form": "seriennummervergabe",
     "seriennummer": "3120180023",
     "artikelnummer": "1017000012",
     "macadresse": "00:50:C2:9C:6F:AF",
     "microcontrollerid": "",
-    "vorgangsnummern": "[\"15911\"]",
-    "parentForm": "seriennummervergabe",
-    "changedUser": "m.koeppchen",
-    "changedTime": "1555584825538"
+    "platinennummern": "",
+    "vorgangsnummern": "[\"15911\"]"
   },
   {
-    "_id": "95",
+    "#id": "95",
+    "#form": "seriennummervergabe",
     "seriennummer": "3120180024",
     "artikelnummer": "1017000012",
     "macadresse": "00:50:C2:9C:6F:AE",
     "microcontrollerid": "",
-    "vorgangsnummern": "[\"15911\"]",
-    "parentForm": "seriennummervergabe",
-    "changedUser": "m.koeppchen",
-    "changedTime": "1555584825538"
+    "platinennummern": "",
+    "vorgangsnummern": "[\"15911\"]"
   },
   {
-    "_id": "96",
+    "#id": "96",
+    "#form": "seriennummervergabe",
     "seriennummer": "3120180025",
     "artikelnummer": "1017000012",
     "macadresse": "00:50:C2:9C:6F:B5",
     "microcontrollerid": "",
-    "vorgangsnummern": "[\"15911\"]",
-    "parentForm": "seriennummervergabe",
-    "changedUser": "m.koeppchen",
-    "changedTime": "1555584825538"
+    "platinennummern": "",
+    "vorgangsnummern": "[\"15911\"]"
   },
   {
-    "_id": "97",
+    "#id": "97",
+    "#form": "seriennummervergabe",
     "seriennummer": "3120180026",
     "artikelnummer": "1017000012",
     "macadresse": "00:50:C2:9C:6F:B4",
     "microcontrollerid": "",
-    "vorgangsnummern": "[\"17140\"]",
-    "parentForm": "seriennummervergabe",
-    "changedUser": "m.koeppchen",
-    "changedTime": "1555584825538"
+    "platinennummern": "",
+    "vorgangsnummern": "[\"17140\"]"
   },
   {
-    "_id": "98",
+    "#id": "98",
+    "#form": "seriennummervergabe",
     "seriennummer": "3120180027",
     "artikelnummer": "1017000012",
     "macadresse": "00:50:C2:9C:6F:B3",
     "microcontrollerid": "",
-    "vorgangsnummern": "[\"15911\"]",
-    "parentForm": "seriennummervergabe",
-    "changedUser": "m.koeppchen",
-    "changedTime": "1555584825538"
+    "platinennummern": "",
+    "vorgangsnummern": "[\"15911\"]"
   },
   {
-    "_id": "99",
+    "#id": "99",
+    "#form": "seriennummervergabe",
     "seriennummer": "3120180028",
     "artikelnummer": "1017000012",
     "macadresse": "00:50:C2:9C:6F:B2",
     "microcontrollerid": "",
-    "vorgangsnummern": "[\"15911\"]",
-    "parentForm": "seriennummervergabe",
-    "changedUser": "m.koeppchen",
-    "changedTime": "1555584825538"
+    "platinennummern": "",
+    "vorgangsnummern": "[\"15911\"]"
   },
   {
-    "_id": "100",
+    "#id": "100",
+    "#form": "seriennummervergabe",
     "seriennummer": "4120180001",
     "artikelnummer": "1017000020",
     "macadresse": "00:50:C2:9C:6F:A5",
     "microcontrollerid": "",
-    "vorgangsnummern": "[\"16291\"]",
-    "parentForm": "seriennummervergabe",
-    "changedUser": "m.koeppchen",
-    "changedTime": "1555584825538"
+    "platinennummern": "",
+    "vorgangsnummern": "[\"16291\"]"
   },
   {
-    "_id": "101",
+    "#id": "101",
+    "#form": "seriennummervergabe",
     "seriennummer": "4420180001",
     "artikelnummer": "1017000020",
     "macadresse": "00:50:c2:9c:6f:a4",
     "microcontrollerid": "",
     "platinennummern": "[\"094917\"]",
-    "vorgangsnummern": "[\"16325\",\"16817\"]",
-    "parentForm": "seriennummervergabe",
-    "changedTime": "1555584825538"
+    "vorgangsnummern": "[\"16325\",\"16817\"]"
   },
   {
-    "_id": "102",
+    "#id": "102",
+    "#form": "seriennummervergabe",
     "seriennummer": "4420180002",
     "artikelnummer": "1017000020",
     "macadresse": "00:50:C2:9C:6F:A3",
     "microcontrollerid": "",
-    "vorgangsnummern": "[\"16325\",\"16817\"]",
-    "parentForm": "seriennummervergabe",
-    "changedTime": "1555584825538"
+    "platinennummern": "",
+    "vorgangsnummern": "[\"16325\",\"16817\"]"
   },
   {
-    "_id": "103",
+    "#id": "103",
+    "#form": "seriennummervergabe",
     "seriennummer": "4420180003",
     "artikelnummer": "1017000023",
     "macadresse": "",
     "microcontrollerid": "",
-    "vorgangsnummern": "[\"16434\"]",
-    "parentForm": "seriennummervergabe",
-    "changedTime": "1555584825538"
+    "platinennummern": "",
+    "vorgangsnummern": "[\"16434\"]"
   },
   {
-    "_id": "104",
+    "#id": "104",
+    "#form": "seriennummervergabe",
     "seriennummer": "4420180004",
     "artikelnummer": "1017000023",
     "macadresse": "",
     "microcontrollerid": "",
-    "vorgangsnummern": "[\"16450\"]",
-    "parentForm": "seriennummervergabe",
-    "changedTime": "1555584825538"
+    "platinennummern": "",
+    "vorgangsnummern": "[\"16450\"]"
   },
   {
-    "_id": "105",
+    "#id": "105",
+    "#form": "seriennummervergabe",
     "seriennummer": "4420180005",
     "artikelnummer": "1017000023",
     "macadresse": "",
     "microcontrollerid": "",
-    "vorgangsnummern": "[\"16425\"]",
-    "parentForm": "seriennummervergabe",
-    "changedTime": "1555584825538"
+    "platinennummern": "",
+    "vorgangsnummern": "[\"16425\"]"
   },
   {
-    "_id": "106",
+    "#id": "106",
+    "#form": "seriennummervergabe",
     "seriennummer": "4420180006",
+    "artikelnummer": "",
     "macadresse": "00:50:c2:9c:6f:9b",
+    "microcontrollerid": "",
     "platinennummern": "[\"094943\"]",
-    "parentForm": "seriennummervergabe",
-    "changedTime": "1555584825538"
+    "vorgangsnummern": ""
   },
   {
-    "_id": "107",
+    "#id": "107",
+    "#form": "seriennummervergabe",
     "seriennummer": "4720180001",
     "artikelnummer": "1017000001",
     "macadresse": "00:50:C2:9C:61:2C",
     "microcontrollerid": "",
     "platinennummern": "[\"00014900\"]",
-    "parentForm": "seriennummervergabe",
-    "changedTime": "1555584825538"
+    "vorgangsnummern": ""
   },
   {
-    "_id": "108",
+    "#id": "108",
+    "#form": "seriennummervergabe",
     "seriennummer": "4720180002",
     "artikelnummer": "1017000001",
     "macadresse": "00:50:C2:9C:60:64",
     "microcontrollerid": "",
-    "parentForm": "seriennummervergabe",
-    "changedTime": "1555584825538"
+    "platinennummern": "",
+    "vorgangsnummern": ""
   },
   {
-    "_id": "109",
+    "#id": "109",
+    "#form": "seriennummervergabe",
     "seriennummer": "4720180003",
     "artikelnummer": "1017000001",
     "macadresse": "00:50:C2:9C:61:29",
     "microcontrollerid": "",
     "platinennummern": "[\"00014899\"]",
-    "parentForm": "seriennummervergabe",
-    "changedTime": "1555584825538"
+    "vorgangsnummern": ""
   },
   {
-    "_id": "110",
+    "#id": "110",
+    "#form": "seriennummervergabe",
     "seriennummer": "4820180001",
     "artikelnummer": "1017000020",
     "macadresse": "00:50:C2:9C:6F:9D",
     "microcontrollerid": "",
     "platinennummern": "[\"094902\"]",
-    "vorgangsnummern": "[\"16372\"]",
-    "parentForm": "seriennummervergabe",
-    "changedTime": "1555584825538"
+    "vorgangsnummern": "[\"16372\"]"
   },
   {
-    "_id": "111",
+    "#id": "111",
+    "#form": "seriennummervergabe",
     "seriennummer": "4820180002",
     "artikelnummer": "1017000020",
     "macadresse": "00:50:C2:9C:6F:A0",
     "microcontrollerid": "",
     "platinennummern": "[\"094907\"]",
-    "vorgangsnummern": "[\"16372\"]",
-    "parentForm": "seriennummervergabe",
-    "changedTime": "1555584825538"
+    "vorgangsnummern": "[\"16372\"]"
   },
   {
-    "_id": "112",
+    "#id": "112",
+    "#form": "seriennummervergabe",
     "seriennummer": "4820180003",
     "artikelnummer": "1017000020",
     "macadresse": "00:50:C2:9C:6F:9C",
     "microcontrollerid": "",
     "platinennummern": "[\"094961\"]",
-    "vorgangsnummern": "[\"16619\"]",
-    "parentForm": "seriennummervergabe",
-    "changedTime": "1555584825538"
+    "vorgangsnummern": "[\"16619\"]"
   }
 ]

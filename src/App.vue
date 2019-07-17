@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <prot-ser :data_url='data_url' :height="height"></prot-ser>
+    <prot-ser :data_url='data_url' :height="height" :displayoptions="displayoptions"></prot-ser>
   </div>
 </template>
 
@@ -22,6 +22,10 @@ export default {
     height: {
       type: [Number, String],
       default: "auto"
+    },
+    displayoptions: {
+      type: String,
+      default: ""
     }
   }
 }
