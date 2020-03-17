@@ -57,10 +57,15 @@ export default {
 
         // this.$set(op, 'headerDef', this.get_columns(this.data));
         
+        this.$set(op, 'tableStyles', {
+          'grid-gap': '2px'
+        })
+        
         this.$set(op, 'formatter', {
           active: true,
           externelFunction: undefined,
           options: {
+            ...op.formatter,
             "#all": (value, index, row) => {
               if(value === undefined){
                 return value;
@@ -74,7 +79,7 @@ export default {
             },
             "edit": (value, index, row) => {
               return `<a href="http://prot-subuntu:8080/prot-wiki/Wiki.jsp?page=Formly&formular=${row['#form']}&model=${row['#id']}">edit</a>`;
-            }
+            },
           }
         });
 
@@ -123,6 +128,7 @@ export default {
             this.$refs.table.data = response;
             console.log({data: response, options: this.options})
           })
+          .catch(err => (console.error(err)));
     },
     get_columns(data){
       let columns = {};
